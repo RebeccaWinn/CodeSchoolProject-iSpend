@@ -1,0 +1,75 @@
+[v-cloak] {
+    display: none;
+}
+.my-event {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 2px;
+    background-color: #B39DDB;
+    color: #ffffff;
+    border: 1px solid #B39DDB;
+    width: 100%;
+    font-size: 12px;
+    padding: 3px;
+    cursor: pointer;
+    margin-bottom: 1px;
+  }
+
+    
+
+NOTES:
+-pattern should be div,wrapper, then content
+-Optimize view for every size
+-Floats almost always should have a clear fix along with them.
+-When doing media queries, desktop should go first so that it is read/interpreted first. Views should not take away from user experience, it its best to not take away content, only change its appearance or layout. Consider how the user experience differs form mobile vs. desktop.
+-Javascript link should be located towards bottom of html page within the body.
+-Container is essentially the same as a wrapper.
+-Bootstrap is a good way to do media queries faster. 
+-In order to stack an image that is not a background or cover, width 100% height auto.
+-Cover images will resize without having to use media queries.
+-calc 100 vh will allow another image to pop up once user starts scrolling.
+-Lunch next week is on Wednesday, company is coming on Tuesday as well.
+-Client is what the user interacts with. The server is a program that does processing of data,logic, and computation.
+-DOM:Document Object Model, is anything the user can interact with (what you can see, click on, etc.)
+-JavaScript is a dynamic language, meaning you won't need a compiler to find errors.
+-MDN for javascript questions.
+-elements: an item within the DOM
+-variables: store data.
+-events: responses to user interactions throughout use
+-Classes in html can be applied to multiple elements, where ids are to be applied to a single element.
+-Can't add a new event if you don't use an event.
+-3 things you need for an event: result(what will be clicked,outcome,event)
+-Spans are like divs but inline.
+-Can use JavaScript Console Under View then Developer to experiment.
+-math.radom() returns a number between 0 and 1, not including 1.
+-math.floor(math.random)rounds down to get rid of decimal
+-console.log() is almost the same thing as print() in python. It is useful for testing code.
+-The .forEach function works as a loop for the list that comes before it. The parameter it recieves will always be a function whose parameter represents the individual items in the list.
+-Use console tab to catch errors, best to keep it open at all times.
+-Use JavaScript to style so that style changes can happen throughout the use by the user. Use CSS for inital UI and for all possibilities of styling, then your JavaScript can choose certain styles throughout use.
+- || means or in JavaScript.
+-In order to say not in JavaScript, use !.
+-Multiline comments begin with /* and end in */.
+-A logical and is represented by &&.
+-JavaScript uses PEMDAS.
+-In order to grab specific information from a variable that has more than once piece of data, use varname.pieceofinfo.
+-Use onmouseover in order to set an event for a hover.
+-Before creating a large program it might be good practice to write out or brainstorm a list of all the components of the code that will be needed including logic and technical necessities.
+-It also is a good idea to configure the basics of a program first in order to be able to visualizw how the program will work, which makes testing logic and other complicated technicalities easier.
+-e stands for event.
+-Examples of events:
+    onchange:An HTML element has been changed.
+    onclick:The user clicks an HTML element.
+    onmouseover:The user moves the mouse over an HTML element.
+    onmouseout:The user moves the mouse away from an HTML element.
+    onkeydown:The user pushes a keyboard key
+    onload.
+-txt.length to find string length.
+- june 26 Basic Invite, july 3, july 10th Scientific Torque, july 15 Refer.io, july 25th PrinterLogic, july 26th
+-v-if is used to show different things. Generally if your statement is true in your v-if statement, the related code will appear. IF it is false it will stay hidden.
+-v-if and v-else must be right next to each other.
+-if you use a function specifically to compute something or do math, you call it in your html using variable syntax instead of function syntax.
+- :loading="loading" will v-bind.
+- @ will act as v-on:.
+- set container to fluid, then v-layout align-center and justify-center.

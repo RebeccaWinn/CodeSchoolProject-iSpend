@@ -1,0 +1,43 @@
+[v-cloak] {
+  display: none;
+}
+.heroimg {
+  height: 1500px;
+  background-size: cover;
+  background-image: url("main.jpg");
+}
+.title {
+  height: 3rem !important;
+}
+.bgimage {
+  background-image: url("blur.jpg");
+  background-size: cover;
+  height: 800px;
+}
+.signupimage{
+  background-image: url("signup.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+.center {
+  padding-top: 125px;
+  padding-bottom: 150px;
+}
+.editButton {
+  min-width: 0;
+}
+#create .v-speed-dial {
+  position: absolute;
+}
+
+#create .v-btn--floating {
+  position: relative;
+}
+
+.v-text-field .v-icon {
+  color:rgb(0, 110, 255);
+}
+.logoimg{
+  height:125px;
+}
